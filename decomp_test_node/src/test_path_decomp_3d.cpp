@@ -1,7 +1,7 @@
 
 #include <decomp_util/ellipsoid_decomp.h>
 #include <pcl_conversions/pcl_conversions.h>
-#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
+#include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 
 #include <chrono>
 #include <decomp_ros_msgs/msg/ellipsoid_array.hpp>

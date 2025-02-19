@@ -29,6 +29,8 @@ find_package(std_msgs REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(rcl_interfaces REQUIRED)
 find_package(pcl_conversions REQUIRED)
+find_package(pcl_ros REQUIRED)
+find_package(tf2_eigen REQUIRED)
 
 set(decomp_rviz_plugins_FOUND 1 )
 find_package(decomp_rviz_plugins REQUIRED)
@@ -54,6 +56,8 @@ set(DEPENDENCIES
   "rcl_interfaces"
   "pcl_conversions"
   "decomp_rviz_plugins"
+  "pcl_ros"
+  "tf2_eigen" 
 )
 
 # add_executable(bag_reader src/bag_reader.cpp)
